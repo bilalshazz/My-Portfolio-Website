@@ -1,0 +1,1184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.home{
+    background-color: #0b1020;
+    background-image: url("Images/home.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.home h1{
+    font-size: 100px;
+    color: white;
+    text-align: left;
+    padding-left: 150px;
+    padding-top: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home h1 .myName{
+    display: block;
+    color: #aaddd9;
+}
+
+.home p{
+    font-size: 30px;
+    padding-left: 150px;
+    padding-top: 15px;
+    color: #a0aec7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home h2{
+    font-size: 18px;
+    color: #aaddd9;
+    text-align: left;
+    padding-left: 150px;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home .buttons{
+    gap: 15px;
+    padding-left: 150px;
+    padding-top: 70px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+}
+
+.home .buttons a{
+    color: white;
+    border: 5px solid #333758;
+    padding: 12px 24px;
+    border-radius: 15px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.home .buttons a:hover{
+    color: #aaddd9;
+    border-color: #563dbd;
+}
+
+.about{
+    background-color: #0b1020;
+}
+
+.about header, .contact header, .interests header, .portfolio header, .projectDetails header{
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    border-bottom: 1px solid #563dbd;
+    padding-bottom: 40px;
+}
+
+.about .myLogo, .contact .myLogo, .interests .myLogo, .portfolio .myLogo, .projectDetails .myLogo{
+    color: #ffffff;
+    font-size: 40px;
+    text-decoration: none;
+    padding-left: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about .buttons, .contact .buttons, .interests .buttons, .portfolio .buttons, .projectDetails .buttons{
+    gap: 35px;
+    justify-content: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+    padding-left: 250px;
+}
+
+.about .buttons a, .contact .buttons a, .interests .buttons a, .portfolio .buttons a, .projectDetails .buttons a{
+    font-size: 20px;
+    color: #a0aec7;
+    border: none;
+    text-decoration: none;
+    padding: 12px 24px;
+}
+
+.about .buttons a:hover, .contact .buttons a:hover, .interests .buttons a:hover, .portfolio .buttons a:hover, .projectDetails .buttons a:hover{
+    color: white;
+    background-color: #563dbd;
+    border-radius: 15px;
+}
+
+.about .buttons a.currentPage, .contact .buttons a.currentPage, .interests .buttons a.currentPage, .portfolio .buttons a.currentPage, .projectDetails .buttons a.currentPage{
+    color: white;
+    border: 2px solid #563dbd;
+    border-radius: 15px;
+}
+
+.about h1{
+    color: #ffffff;
+    padding-left: 250px;
+    padding-top: 50px;
+    font-size: 50px;
+    padding-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about .intro{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-left: 250px;
+    padding-right: 100px;
+}
+
+.about .myPortrait{
+    width: 350px;
+    height: 350px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    border: 5px solid #563dbd;
+    object-fit: cover;
+    object-position: center bottom;
+}
+
+.about .myIntroduction{
+    flex: 1;
+    min-width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about .myIntroduction h2{
+    color: #aaddd9;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.about .myIntroduction p{
+    color: #a0aec7;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about .education{
+    padding-left: 250px;
+    padding-top: 70px;
+    padding-right: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about .education h2{
+    color: #aaddd9;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about .myEducation{
+    background-color: #141a30;
+    border: 3px solid #333758;
+    border-left: 8px solid #563dbd;
+    border-right: 8px solid #563dbd;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.about .myEducation h3{
+    margin-bottom: 10px;
+    color: #f5b869;
+    font-size: 22px;
+}
+
+.about .changeColour{
+    color: #aaddd9;
+}
+
+.about .myEducation p{
+    color: #a0aec7;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.about .skills{
+    padding-left: 250px;
+    padding-top: 70px;
+    padding-right: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about .skills h2{
+    color: #aaddd9;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about .skills h3{
+    margin-bottom: 10px;
+    color: white;
+    font-size: 32px;
+}
+
+.about .skills .newColour{
+    color: #f5b869;
+}
+
+.about .skills p{
+    color: #a0aec7;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.about .mySkills{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.about .skillSection{
+    width: 30%;
+    box-sizing: border-box;
+    background-color: #141a30;
+    border: 3px solid #333758;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.about .skillSection:hover{
+    border-color: #563dbd;
+}
+
+.about .skillSection h3{
+    color: #aaddd9;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.about .skillSection p{
+    color: #a0aec7;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.about footer, .contact footer, .interests footer, .portfolio footer, .projectDetails footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 80px;
+    padding: 20px 0;
+    background-color: #141a30;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about footer p, .contact footer p, .interests footer p, .portfolio footer p, .projectDetails footer p{
+    font-size: 18px;
+    color: #a0aec7;
+}
+
+.about .findMeOn, .contact .findMeOn, .interests .findMeOn, .portfolio .findMeOn, .projectDetails .findMeOn{
+    display: flex;
+    gap: 15px;
+}
+
+.about .findMeOn a, .contact .findMeOn a, .interests .findMeOn a, .portfolio .findMeOn a, .projectDetails .findMeOn a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #a0aec7;
+    border-radius: 15px;
+    padding: 8px 20px;
+}
+
+.about .findMeOn a:hover, .contact .findMeOn a:hover, .interests .findMeOn a:hover, .portfolio .findMeOn a:hover, .projectDetails .findMeOn a:hover{
+    color: white;
+    background-color: #563dbd;
+}
+
+.contact{
+    background-color: #0b1020;
+    background-image: url(Images/contactbg.png);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+}
+
+.contact main{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.contact .contactPage{
+    flex: 1;
+}
+
+.contact .contactPage h1{
+    color: #aaddd9;
+    padding-left: 250px;
+    padding-top: 100px;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact .contactPage h2{
+    color: #f5b869;
+    padding-left: 250px;
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact .contactPage p{
+    padding-left: 250px;
+    color: #a0aec7;
+    padding-top: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    padding-bottom: 30px;
+}
+
+.contact .content{
+    margin-left: 250px;
+    margin-top: 30px;
+    list-style: none;
+    padding: 0;
+}
+
+.contact .content li{
+    border-left: 4px solid #563dbd;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.contact .content h2{
+    color: #aaddd9;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+}
+
+.contact .content p{
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact .contactForm{
+    padding: 40px;
+    background-color: #141a30;
+    width: 600px;
+    margin-top: 100px;
+    margin-right: 200px;
+    border-radius: 20px;
+    border: 2px solid #333758;
+    border-top: 8px solid #563dbd;
+    box-sizing: border-box;
+}
+
+.contact .contactForm h2{
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+
+.contact .entryFields{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.contact .firstAndLastNameFields{
+    display: flex;
+    gap: 20px;
+}
+
+.contact .firstAndLastNameFields .field{
+    flex: 1;
+    min-width: 0;
+}
+
+.contact label{
+    display: block;
+    margin-bottom: 8px;
+    color: #aaddd9;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact input, .contact textarea{
+    width: 100%;
+    background-color: #0b1020;
+    color: white;
+    border: 2px solid #333758;
+    border-radius: 12px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.contact textarea{
+    resize: vertical;
+    height: 180px;
+}
+
+.contact #wordCount{
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    text-align: right;
+}
+
+.contact button{
+    color: white;
+    background-color: #563dbd;
+    padding: 12px 24px;
+    border: 2px solid #563dbd;
+    border-radius: 12px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact button:hover{
+    background-color: #6a4fd6;
+    border-color: #6a4fd6;
+}
+
+.interests{
+    background-color: #0b1020;
+}
+
+.interests h1{
+    color: #f5b869;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 250px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.interests .introductionToTechInterests{
+    color: #a0aec7;
+    padding-left: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 50px;
+}
+
+.interests .techInterests{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: 250px;
+    flex-wrap: wrap;
+    margin-right: 100px;
+    margin-bottom: 70px;
+}
+
+.interests .techInterests:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+.interests .interestImages{
+    border: 3px solid #333758;
+    border-radius: 15px;
+    width: 420px;
+    height: 280px;
+}
+
+.interests .interestImages:hover{
+    border-color: #aaddd9;
+}
+
+.interests .interestDescriptions{
+    border-left: 4px solid #563dbd;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 25px;
+    flex: 1;
+}
+
+.interests .interestDescriptions h2{
+    color: #aaddd9;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.interests .interestDescriptions p{
+    color: #a0aec7;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.portfolio{
+    background-color: #0b1020;
+}
+
+.portfolio .portfolioIntro h1{
+    color: #f5b869;
+    padding-left: 250px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.portfolio .portfolioIntro .portfolioDescription{
+    color: #a0aec7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding-left: 250px;
+    line-height: 1.6;
+    max-width: 1000px;
+}
+
+.portfolio .portfolioIntro h2{
+    color: #aaddd9;
+    padding-left: 250px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.portfolio .portfolioIntro p{
+    color: #a0aec7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding-left: 250px;
+}
+
+.portfolio .projectSection{
+    padding: 50px 250px;
+}
+
+.portfolio .projectCards{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.portfolio .projectCard{
+    background-color: #141a30;
+    border: 4px solid #333758;
+    border-radius: 15px;
+    position: relative;
+    width: 30%;
+}
+
+.portfolio .projectCard:hover{
+    border-color: #563dbd;
+}
+
+.portfolio .projectImages img{
+    border-radius: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.portfolio .projectNumber{
+    color: bold #563dbd;
+    background-color: #aaddd9;
+    padding: 8px 13px;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 15px;
+    top: 15px;
+    position: absolute;
+    font-size: 18px;
+}
+
+.portfolio .projectCards h3{
+    color: #aaddd9;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.portfolio .projectCards p{
+    color: #a0aec7;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.portfolio .projectCard a{
+    text-decoration: none;
+    color: #f5b869;
+    padding: 20px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.portfolio .projectCard a:hover{
+    color: #eec794;
+}
+
+.projectDetails{
+    background-color: #0b1020;
+}
+
+.projectDetails .projectInfo{
+    background-color: #141a30;
+    border: 2px solid #563dbd;
+    padding: 70px 40px;
+    width: 68%;
+    margin-top: 60px;
+    margin-left: 250px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 70px;
+}
+
+.projectDetails .projectInfo h1{
+    color: #f5b869;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 30px;
+}
+
+.projectDetails .projectInfo p{
+    color: #a0aec7;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 60px;
+}
+
+.projectDetails .projectInfo img{
+    width: 450px;
+    border-radius: 20px;
+}
+
+.projectDetails .github{
+    padding: 20px 30px;
+    border: 2px solid #563dbd;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.projectDetails .github:hover{
+    background-color: #563dbd;
+}
+
+.projectDetails .projectContent{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 250px;
+    width: 73%;
+    margin-bottom: 60px;
+    gap: 50px;
+}
+
+.projectDetails .moreAboutTheProject{
+    flex: 2;
+    min-width: 0;
+}
+
+.projectDetails .moreAboutTheProject h2{
+    color: #aaddd9;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+}
+
+.projectDetails .moreAboutTheProject p{
+    color: #a0aec7;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.projectDetails .moreDetails{
+    flex: 1;
+    background-color: #141a30;
+    border: 2px solid #563dbd;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.projectDetails .moreDetails h2{
+    color: #aaddd9;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.projectDetails .moreDetails p{
+    color: #a0aec7;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    border: 2px solid #a0aec7;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.projectDetails .moreDetails p:hover{
+    border-color: #f5b869;
+    color: white;
+}
+
+.projectDetails .features{
+    margin-left: 250px;
+}
+
+.projectDetails .features h2{
+    color: #aaddd9;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+}
+
+.projectDetails .listOfFeatures{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.projectDetails .featuresBox{
+    background-color: #141a30;
+    border-radius: 20px;
+    border: 2px solid #563dbd;
+    padding: 25px;
+    width: 345px;
+}
+
+.projectDetails .featuresBox:hover{
+    border-color: #ad9bf5;
+}
+
+.projectDetails .featuresBox h3{
+    color: #f5b869;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+
+.projectDetails .featuresBox p{
+    color: #a0aec7;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+.projectDetails .challenges{
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+.projectDetails .challenges h2{
+    color: #aaddd9;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 25px;
+}
+
+.projectDetails .listOfChallenges{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.projectDetails .challengesField{
+    border-bottom: 1px solid #563dbd;
+    padding: 25px;
+    width: 82%;
+}
+
+.projectDetails .challengesField h3{
+    color: #f5b869;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+
+.projectDetails .challengesField p{
+    color: #a0aec7;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.projectDetails .challengeColour{
+    color: rgb(246, 160, 160);
+}
+
+.projectDetails .solutionColour{
+    color: rgb(158, 244, 158);
+}
+
+.projectDetails .whatILearnt{
+    width: 70%;
+    margin-left: 250px;
+}
+
+.projectDetails .whatILearnt h2{
+    color: #aaddd9;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.projectDetails .whatILearnt p{
+    color: #a0aec7;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 1100px) {
+    .home h1 {
+        font-size: 70px;
+        padding-left: 80px;
+        padding-right: 40px;
+        padding-top: 120px;
+    }
+
+    .home p,
+    .home h2,
+    .home .buttons {
+        padding-left: 80px;
+        padding-right: 40px;
+    }
+
+    :is(.about, .contact, .interests, .portfolio, .projectDetails) header {
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    :is(.about, .contact, .interests, .portfolio, .projectDetails) .myLogo {
+        padding-left: 0;
+    }
+
+    :is(.about, .contact, .interests, .portfolio, .projectDetails) .buttons {
+        padding-left: 0;
+        gap: 10px;
+    }
+
+    .about h1,
+    .about .intro,
+    .about .education,
+    .about .skills,
+    .contact .contactPage > h1,
+    .contact .contactPage > h2,
+    .contact .contactPage > p,
+    .interests h1,
+    .interests .introductionToTechInterests,
+    .portfolio .portfolioIntro h1,
+    .portfolio .portfolioIntro h2,
+    .portfolio .portfolioIntro p,
+    .portfolio .portfolioIntro .portfolioDescription {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .contact .content,
+    .interests .techInterests,
+    .projectDetails .projectInfo,
+    .projectDetails .projectContent,
+    .projectDetails .features,
+    .projectDetails .challenges,
+    .projectDetails .whatILearnt {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .projectDetails .projectInfo,
+    .projectDetails .projectContent,
+    .projectDetails .whatILearnt {
+        width: auto;
+    }
+
+    .projectDetails .challengesField {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .about .skillSection {
+        width: calc(50% - 13px);
+    }
+
+    .portfolio .projectSection {
+        padding: 40px 60px;
+    }
+
+    .portfolio .projectCard {
+        width: calc(50% - 15px);
+        box-sizing: border-box;
+    }
+
+    .contact main {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+    }
+
+    .contact .contactPage h1 {
+        padding-top: 50px;
+    }
+
+    .contact .contactForm {
+        width: auto;
+        margin: 20px 60px 0;
+    }
+
+    .projectDetails .featuresBox {
+        width: auto;
+        flex: 1 1 260px;
+        box-sizing: border-box;
+        min-width: 0;
+    }
+}
+
+@media (max-width: 900px) {
+    .interests .techInterests,
+    .interests .techInterests:nth-child(even) {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 25px;
+    }
+
+    .interests .interestImages {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 3 / 2;
+        object-fit: cover;
+        box-sizing: border-box;
+    }
+
+    .interests .interestDescriptions {
+        flex: none;
+    }
+
+    .projectDetails .projectInfo {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 40px 25px;
+        gap: 30px;
+    }
+
+    .projectDetails .projectInfo img {
+        width: 100%;
+        max-width: 450px;
+    }
+
+    .projectDetails .projectContent {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 30px;
+    }
+
+    .projectDetails .moreAboutTheProject,
+    .projectDetails .moreDetails {
+        flex: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .home {
+        position: relative;
+        isolation: isolate;
+    }
+
+    .home::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: rgba(11, 16, 32, 0.4);
+        z-index: -1;
+    }
+    .home h1 {
+        font-size: 46px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 80px;
+    }
+
+    .home p {
+        font-size: 20px;
+    }
+
+    .home p,
+    .home h2,
+    .home .buttons {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .home .buttons {
+        padding-top: 40px;
+    }
+
+    .home .buttons a {
+        font-size: 17px;
+        padding: 10px 18px;
+    }
+
+    :is(.about, .contact, .interests, .portfolio, .projectDetails) .myLogo {
+        font-size: 32px;
+    }
+
+    :is(.about, .contact, .interests, .portfolio, .projectDetails) .buttons {
+        gap: 6px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    :is(.about, .contact, .interests, .portfolio, .projectDetails) .buttons a {
+        font-size: 16px;
+        padding: 8px 14px;
+    }
+
+    .about h1,
+    .about .intro,
+    .about .education,
+    .about .skills,
+    .contact .contactPage > h1,
+    .contact .contactPage > h2,
+    .contact .contactPage > p,
+    .interests h1,
+    .interests .introductionToTechInterests,
+    .portfolio .portfolioIntro h1,
+    .portfolio .portfolioIntro h2,
+    .portfolio .portfolioIntro p,
+    .portfolio .portfolioIntro .portfolioDescription {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .contact .content,
+    .interests .techInterests,
+    .projectDetails .projectInfo,
+    .projectDetails .projectContent,
+    .projectDetails .features,
+    .projectDetails .challenges,
+    .projectDetails .whatILearnt {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .about h1,
+    .interests h1,
+    .portfolio .portfolioIntro h1,
+    .projectDetails .projectInfo h1 {
+        font-size: 34px;
+    }
+
+    .contact .contactPage > h1 {
+        font-size: 40px;
+    }
+
+    .contact .contactPage > h2 {
+        font-size: 24px;
+    }
+
+    .about .intro {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .about .myPortrait {
+        width: 240px;
+        height: 240px;
+    }
+
+    .about .myIntroduction {
+        min-width: 0;
+    }
+
+    .about .skillSection {
+        width: 100%;
+    }
+
+    .portfolio .projectSection {
+        padding: 30px 20px;
+    }
+
+    .portfolio .projectCard {
+        width: 100%;
+    }
+
+    .contact .contactForm {
+        margin: 20px 20px 0;
+        padding: 25px;
+    }
+
+    .contact .contactForm h2 {
+        font-size: 30px;
+    }
+
+    .contact button {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .projectDetails .projectInfo {
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    .projectDetails .projectInfo p {
+        font-size: 18px;
+        padding-bottom: 30px;
+    }
+
+    .projectDetails .challengesField {
+        padding: 20px 0;
+    }
+
+    .projectDetails .whatILearnt p {
+        font-size: 18px;
+    }
+
+    :is(.about, .contact, .interests, .portfolio, .projectDetails) footer {
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 50px;
+        text-align: center;
+        padding: 25px 20px;
+    }
+
+    :is(.about, .contact, .interests, .portfolio, .projectDetails) footer p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact .firstAndLastNameFields {
+        flex-direction: column;
+    }
+
+    .home h1 {
+        font-size: 38px;
+    }
+}
+
